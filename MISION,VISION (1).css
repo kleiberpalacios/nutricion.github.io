@@ -1,0 +1,31 @@
+/* Estilos CSS para los botones de menú */
+.menu {
+    display: flex;
+}
+
+.menu-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+}
+
+.menu-button:last-child {
+    margin-right: 0;
+}
+
+/* Estilos CSS para las imágenes */
+.image-container {
+    text-align: center;
+}
+
+.image {
+    display: none;
+}
+
+.image.active {
+    display: block;
+}

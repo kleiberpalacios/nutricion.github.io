@@ -1,0 +1,37 @@
+div{
+	position:relative;
+	
+}	
+
+
+
+section {
+	display:flex;
+	width:600px;
+	height:430px;
+	top:90px;
+	position:relative;
+	margin:auto;
+	}
+	section img {
+	width:0px;
+	flex-grow:1;
+	object-fit: cover;
+	opacity: .8;
+	transition: .5s ease;
+	}
+	section img:hover{
+		cursor:crosshair;
+		width:300px;
+		opacity:1;
+		filter:contrast(120%);
+	}
+	.caja1 {
+		margin:20%;
+		background-color:#88ffff;
+		width: 300px;
+		height: 300px;
+		position: relative;
+		float:left; right:30px; 
+
+}

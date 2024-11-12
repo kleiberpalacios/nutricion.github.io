@@ -1,0 +1,37 @@
+	/* Estilos CSS para el footer */
+    footer {
+        background-color: #434343;
+        color: #fffefe;
+        text-align: center;
+        padding: 50px;
+        text-decoration-color: #BE33FF;
+
+    }
+    
+    /* Estilos para el contenido del footer */
+    .footer-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /* Estilos para los botones de redes sociales */
+    .social-icons {
+        margin-bottom: 40px;
+    }
+    
+    .social-icons a {
+        margin:100px;
+        text-decoration-color: #BE33FF;
+    }
+    
+    /* Estilos para los enlaces en el footer */
+    footer a {
+        color: #ffffff;
+        text-decoration-color: #BE33FF;
+    }
+    
+    /* Estilos para los enlaces en el hover */
+    footer a:hover {
+        text-decoration-color: #BE33FF;
+    }
